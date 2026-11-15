@@ -49,15 +49,24 @@ makeLuaSprite('woods', 'woods/woods_wide', -753.3,  -160.4)   -- scale 0.6843
 2. `modsList.txt` 增加一行 `Herobrine|1`；
 3. 启动引擎，故事模式选择 Herobrine 周。
 
-## 完整资源包
+## 完整资源包（永久分享）
 
 音频（Inst/Voices）、角色贴图、难度图标等二进制素材体积较大，放在百度网盘：
 
-- 链接：https://pan.baidu.com/netdisk/share?surl=toSDenWllWvtyX8btfE9NA
+- 链接：https://pan.baidu.com/netdisk/share?surl=ddJFGAps2n3mvvH3ceP-3A
 - 提取码：`hb01`
-- 有效期：365 天
+- 有效期：**永久**
 
 包内为可直接解压到 `mods/` 的完整 mod 目录（64 个文件，约 20.7 MB）。
+
+## 宣传片（60 秒）
+
+以代码逐帧渲染（PIL → ffmpeg 管道编码），视觉语言取自 Claude / Anthropic 的纸感界面风格：米白 `#FAF9F5` 画布、卡片 `#F0EEE6`、墨黑 `#141413`、唯一强调色珊瑚 `#D97757`、衬线大标题 + 无衬线正文、统一 0.8s expo 缓出。
+
+- 规格：1920×1080 / 30fps / 60.00s / H.264 + AAC（配乐，响度 −14 LUFS）
+- 分镜：封面 → 三曲清单 → 双难度 → woods 满屏横移 → 移植说明 → 深色收尾
+- 下载：https://pan.baidu.com/netdisk/share?surl=cB3BCYxBIAKMrTwhVwCLJw
+- 提取码：`hb01`　有效期：**永久**
 
 ## 目录
 
@@ -70,6 +79,7 @@ characters/*.json              角色动画与朝向
 images/menudifficulties/       Hard / Hardcore 难度牌
 images/storymenu/difficulties/ 故事模式难度牌
 data/credits.txt               制作人员
+promo/README.md                宣传片分镜与制作说明
 ```
 
 ## 制作
