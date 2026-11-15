@@ -17,21 +17,29 @@
 | DARK | `#141413` | 深色场景底色 |
 
 - 标题：Georgia（衬线，≈Copernicus 的开源替代）；中文用微软雅黑 / 宋体
-- 小标：Consolas等宽字（仅用于拉丁文，避免中文豆腐块）
+- 小标：Consolas 等宽字（仅用于拉丁文，避免中文豆腐块）
 - 缓动：统一 `cubic-bezier(0.16,1,0.3,1)`，时长 0.8s，位移 22~34px
-- 网格：12 栏，内容区 x = 138 ~ 1782
+- 网格：12 栏，内容区 x = 132 ~ 1788
 - 纸纹：米白场景 alpha 3 / 深色场景 alpha 2，叠加高斯模糊，避免脏噪点
 
-## 分镜
+## 分镜（7 页）
 
 | 时间 | 内容 |
 |---|---|
-| 0–8s | 封面：Herobrine 大字 + NovaFlare 副题 + 周期信息 |
-| 8–20s | 三曲清单（recreated / danger / little-herobrine）+ woods 背景卡片 |
-| 20–30s | 双难度：Hard（重制）/ Hardcore（Him 原版） |
-| 30–44s | woods 舞台满屏横移，演示无黑边 |
-| 44–52s | 移植说明（引擎、舞台、构建、制作） |
-| 52–60s | 深色收尾，末 1.2s 收黑 |
+| 0–7s | 封面：Herobrine 大字 + NovaFlare 副题 + 周期信息 |
+| 7–16s | 三曲清单（recreated / danger / little-herobrine）+ woods 背景卡片 |
+| 16–24s | 双难度：Hard（重制）/ Hardcore（Him 原版） |
+| 24–34s | woods 舞台满屏横移，演示无黑边 |
+| 34–41s | 移植说明（引擎、舞台、构建、制作） |
+| 41–51s | 实机演示：左题目 / 中 danger · Hardcore 实录 / 右来源署名 |
+| 51–60s | 深色收尾，末 1.2s 收黑 |
+
+## 实机页素材
+
+- 来源：B 站 UP 主 **Austinキ**，《[FNF] him 单曲 danger 难度 hardcore 1.2x》，`BV1XSEt6EEe9`
+- 截取原片 00:46–00:56，30fps 抽成 300 帧 PNG（`bili/seq/f%04d.png`），面板按 680×426 内容区裁切后缩放至 760×477
+- 页面只做缓慢推近（1.00→1.03）与入场淡入，不改画面本体
+- 版权归原作者，仅作演示与出处标注
 
 ## 声音
 
@@ -39,6 +47,6 @@
 
 ## 成片
 
-https://pan.baidu.com/netdisk/share?surl=cB3BCYxBIAKMrTwhVwCLJw （提取码 `hb01`，永久）
+https://pan.baidu.com/netdisk/share?surl=VmCsZSyxXPYY__W76Nk8sA （提取码 `hb01`，永久）
 
-> 二进制成片不入仓库，仓库只保留说明与参数，方便重渲。
+> 二进制成片与实机帧序列不入仓库，仓库只保留说明与参数，方便重渲。上一版（6 页、无实机页）在网盘保留为 `Herobrine_NovaFlare_promo_60s_v1.mp4`。
