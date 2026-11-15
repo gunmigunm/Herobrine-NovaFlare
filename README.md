@@ -64,9 +64,14 @@ makeLuaSprite('woods', 'woods/woods_wide', -753.3,  -160.4)   -- scale 0.6843
 以代码逐帧渲染（PIL → ffmpeg 管道编码），视觉语言取自 Claude / Anthropic 的纸感界面风格：米白 `#FAF9F5` 画布、卡片 `#F0EEE6`、墨黑 `#141413`、唯一强调色珊瑚 `#D97757`、衬线大标题 + 无衬线正文、统一 0.8s expo 缓出。
 
 - 规格：1920×1080 / 30fps / 60.00s / H.264 + AAC（配乐，响度 −14 LUFS）
-- 分镜：封面 → 三曲清单 → 双难度 → woods 满屏横移 → 移植说明 → 深色收尾
-- 下载：https://pan.baidu.com/netdisk/share?surl=cB3BCYxBIAKMrTwhVwCLJw
+- 分镜：封面 → 三曲清单 → 双难度 → woods 满屏横移 → 移植说明 → **实机演示** → 深色收尾
+- 实机页版式：左题目「实机一局」、中 danger · Hardcore 实录、右来源署名
+- 下载：https://pan.baidu.com/netdisk/share?surl=VmCsZSyxXPYY__W76Nk8sA
 - 提取码：`hb01`　有效期：**永久**
+
+### 实机素材来源
+
+实机画面取自 B 站 UP 主 **Austinキ** 的《[FNF] him 单曲 danger 难度 hardcore 1.2x》（`BV1XSEt6EEe9`），截取原片 00:46–00:56，未做裁改与合成；版权归原作者，本片仅作演示与出处标注。
 
 ## 目录
 
@@ -79,7 +84,7 @@ characters/*.json              角色动画与朝向
 images/menudifficulties/       Hard / Hardcore 难度牌
 images/storymenu/difficulties/ 故事模式难度牌
 data/credits.txt               制作人员
-promo/README.md                宣传片分镜与制作说明
+promo/README.md                宣传片分镜、设计 token 与素材出处
 ```
 
 ## 制作
