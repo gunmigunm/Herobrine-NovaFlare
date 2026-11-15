@@ -1,0 +1,18 @@
+{
+	"storyName": "Herobrine",
+	"difficulties": "Hard,Hardcore",
+	"hideFreeplay": false,
+	"weekBackground": "woods",
+	"freeplayColor": [0, 140, 140],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": ["", "", ""],
+	"songs": [
+		["recreated", "herobrine", [0, 140, 140]],
+		["danger", "herobrine", [0, 140, 140]],
+		["little-herobrine", "herobrine", [0, 140, 140]]
+	],
+	"hideStoryMode": false,
+	"weekName": "Herobrine",
+	"hiddenUntilUnlocked": false
+}
